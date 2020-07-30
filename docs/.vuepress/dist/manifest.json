@@ -1,0 +1,11 @@
+{
+  "short_name": "精诚固定资产",
+  "name": "精臣固定资产官方文档",
+  "icon": [
+    {
+      "src": "/logo.png",
+      "type": "image/png",
+      "sizes": "43x31"
+    }
+  ]
+}
