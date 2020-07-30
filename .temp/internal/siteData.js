@@ -35,74 +35,6 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "财务管理流程",
-      "frontmatter": {},
-      "regularPath": "/pc/finance.html",
-      "relativePath": "pc/finance.md",
-      "key": "v-9c9ce584",
-      "path": "/pc/finance.html"
-    },
-    {
-      "frontmatter": {
-        "sidebar": false
-      },
-      "regularPath": "/pc/inventory.html",
-      "relativePath": "pc/inventory.md",
-      "key": "v-2b3bb73a",
-      "path": "/pc/inventory.html"
-    },
-    {
-      "frontmatter": {
-        "sidebar": false
-      },
-      "regularPath": "/pc/emp_manage.html",
-      "relativePath": "pc/emp_manage.md",
-      "key": "v-bd477164",
-      "path": "/pc/emp_manage.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "概述",
-          "slug": "概述"
-        },
-        {
-          "level": 3,
-          "title": "登录",
-          "slug": "登录"
-        },
-        {
-          "level": 3,
-          "title": "我的资产",
-          "slug": "我的资产"
-        },
-        {
-          "level": 3,
-          "title": "自助盘点",
-          "slug": "自助盘点"
-        },
-        {
-          "level": 3,
-          "title": "意见反馈",
-          "slug": "意见反馈"
-        },
-        {
-          "level": 3,
-          "title": "分享小程序",
-          "slug": "分享小程序"
-        },
-        {
-          "level": 3,
-          "title": "添加到我的小程序",
-          "slug": "添加到我的小程序"
-        },
-        {
-          "level": 3,
-          "title": "关注公众号",
-          "slug": "关注公众号"
-        }
-      ]
-    },
-    {
       "title": "耗材管理流程",
       "frontmatter": {},
       "regularPath": "/pc/consumable.html",
@@ -184,6 +116,172 @@ export const siteData = {
           "level": 3,
           "title": "3. 耗材出入库查询",
           "slug": "_3-耗材出入库查询"
+        },
+        {
+          "level": 3,
+          "title": "库存概况月报&领用统计月报",
+          "slug": "库存概况月报-领用统计月报"
+        }
+      ]
+    },
+    {
+      "title": "财务管理流程",
+      "frontmatter": {},
+      "regularPath": "/pc/finance.html",
+      "relativePath": "pc/finance.md",
+      "key": "v-9c9ce584",
+      "path": "/pc/finance.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "开启财务模块",
+          "slug": "开启财务模块"
+        },
+        {
+          "level": 3,
+          "title": "按资产分类设置折旧要素",
+          "slug": "按资产分类设置折旧要素"
+        },
+        {
+          "level": 2,
+          "title": "入账固定资产",
+          "slug": "入账固定资产"
+        },
+        {
+          "level": 3,
+          "title": "1. 入账当期资产",
+          "slug": "_1-入账当期资产"
+        },
+        {
+          "level": 3,
+          "title": "2. 批量入账当前资产",
+          "slug": "_2-批量入账当前资产"
+        },
+        {
+          "level": 3,
+          "title": "3. 入账历史资产",
+          "slug": "_3-入账历史资产"
+        },
+        {
+          "level": 3,
+          "title": "4. 历史资产入账初始化数据查看",
+          "slug": "_4-历史资产入账初始化数据查看"
+        },
+        {
+          "level": 2,
+          "title": "计提折旧&结账",
+          "slug": "计提折旧-结账"
+        },
+        {
+          "level": 2,
+          "title": "查看报表数据",
+          "slug": "查看报表数据"
+        },
+        {
+          "level": 2,
+          "title": "财务信息变动",
+          "slug": "财务信息变动"
+        },
+        {
+          "level": 3,
+          "title": "财务信息编辑",
+          "slug": "财务信息编辑"
+        },
+        {
+          "level": 3,
+          "title": "财务信息变更",
+          "slug": "财务信息变更"
+        },
+        {
+          "level": 3,
+          "title": "资产卡片删除",
+          "slug": "资产卡片删除"
+        }
+      ]
+    },
+    {
+      "frontmatter": {
+        "sidebar": false
+      },
+      "regularPath": "/pc/emp_manage.html",
+      "relativePath": "pc/emp_manage.md",
+      "key": "v-bd477164",
+      "path": "/pc/emp_manage.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "概述",
+          "slug": "概述"
+        },
+        {
+          "level": 3,
+          "title": "登录",
+          "slug": "登录"
+        },
+        {
+          "level": 3,
+          "title": "我的资产",
+          "slug": "我的资产"
+        },
+        {
+          "level": 3,
+          "title": "资产借用",
+          "slug": "资产借用"
+        },
+        {
+          "level": 3,
+          "title": "资产领用",
+          "slug": "资产领用"
+        },
+        {
+          "level": 3,
+          "title": "资产归还",
+          "slug": "资产归还"
+        },
+        {
+          "level": 3,
+          "title": "资产退还",
+          "slug": "资产退还"
+        },
+        {
+          "level": 3,
+          "title": "资产报修",
+          "slug": "资产报修"
+        },
+        {
+          "level": 3,
+          "title": "耗材领用",
+          "slug": "耗材领用"
+        },
+        {
+          "level": 3,
+          "title": "自助盘点",
+          "slug": "自助盘点"
+        },
+        {
+          "level": 3,
+          "title": "上报资产",
+          "slug": "上报资产"
+        },
+        {
+          "level": 3,
+          "title": "意见反馈",
+          "slug": "意见反馈"
+        },
+        {
+          "level": 3,
+          "title": "分享小程序",
+          "slug": "分享小程序"
+        },
+        {
+          "level": 3,
+          "title": "添加到我的小程序",
+          "slug": "添加到我的小程序"
+        },
+        {
+          "level": 3,
+          "title": "关注公众号",
+          "slug": "关注公众号"
         }
       ]
     },
@@ -274,6 +372,11 @@ export const siteData = {
           "level": 3,
           "title": "2. 资产履历",
           "slug": "_2-资产履历"
+        },
+        {
+          "level": 3,
+          "title": "3. 资产分类统计报表",
+          "slug": "_3-资产分类统计报表"
         }
       ]
     },
@@ -289,6 +392,31 @@ export const siteData = {
           "level": 2,
           "title": "微信员工端",
           "slug": "微信员工端"
+        },
+        {
+          "level": 2,
+          "title": "资产编码自定义",
+          "slug": "资产编码自定义"
+        },
+        {
+          "level": 2,
+          "title": "关键消息提醒",
+          "slug": "关键消息提醒"
+        },
+        {
+          "level": 3,
+          "title": "1. 资产使用期限到期待处置提醒",
+          "slug": "_1-资产使用期限到期待处置提醒"
+        },
+        {
+          "level": 3,
+          "title": "2. 资产借用到期未归还提醒",
+          "slug": "_2-资产借用到期未归还提醒"
+        },
+        {
+          "level": 3,
+          "title": "3．单据待审批消息提醒",
+          "slug": "_3．单据待审批消息提醒"
         },
         {
           "level": 2,
@@ -314,6 +442,122 @@ export const siteData = {
           "level": 3,
           "title": "2. 移动端",
           "slug": "_2-移动端"
+        },
+        {
+          "level": 3,
+          "title": "体验账号",
+          "slug": "体验账号"
+        }
+      ]
+    },
+    {
+      "frontmatter": {
+        "sidebar": false
+      },
+      "regularPath": "/pc/inventory.html",
+      "relativePath": "pc/inventory.md",
+      "key": "v-2b3bb73a",
+      "path": "/pc/inventory.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "常规盘点流程",
+          "slug": "常规盘点流程"
+        },
+        {
+          "level": 2,
+          "title": "1. 创建盘点单",
+          "slug": "_1-创建盘点单"
+        },
+        {
+          "level": 2,
+          "title": "2. 下载盘点任务",
+          "slug": "_2-下载盘点任务"
+        },
+        {
+          "level": 3,
+          "title": "移动端支持离线盘点操作",
+          "slug": "移动端支持离线盘点操作"
+        },
+        {
+          "level": 2,
+          "title": "3.  任务盘点及结果上传",
+          "slug": "_3-任务盘点及结果上传"
+        },
+        {
+          "level": 3,
+          "title": "3.1  资产盘点",
+          "slug": "_3-1-资产盘点"
+        },
+        {
+          "level": 3,
+          "title": "3.2  已盘资产存疑备注",
+          "slug": "_3-2-已盘资产存疑备注"
+        },
+        {
+          "level": 3,
+          "title": "3.3  同步数据上传",
+          "slug": "_3-3-同步数据上传"
+        },
+        {
+          "level": 3,
+          "title": "3.4  新增资产",
+          "slug": "_3-4-新增资产"
+        },
+        {
+          "level": 3,
+          "title": "3.5  提交审核",
+          "slug": "_3-5-提交审核"
+        },
+        {
+          "level": 2,
+          "title": "4. 审核通过",
+          "slug": "_4-审核通过"
+        },
+        {
+          "level": 2,
+          "title": "5. 损益处理",
+          "slug": "_5-损益处理"
+        },
+        {
+          "level": 3,
+          "title": "5.1 盘盈资产处理",
+          "slug": "_5-1-盘盈资产处理"
+        },
+        {
+          "level": 3,
+          "title": "5.2 盘亏资产处理",
+          "slug": "_5-2-盘亏资产处理"
+        },
+        {
+          "level": 2,
+          "title": "初始化盘点清查",
+          "slug": "初始化盘点清查"
+        },
+        {
+          "level": 3,
+          "title": "1. 创建清查盘点单",
+          "slug": "_1-创建清查盘点单"
+        },
+        {
+          "level": 3,
+          "title": "2. 盘点员上报资产",
+          "slug": "_2-盘点员上报资产"
+        },
+        {
+          "level": 3,
+          "title": "3. 员工上报资产",
+          "slug": "_3-员工上报资产"
+        },
+        {
+          "level": 3,
+          "title": "4. 提交盘点结果",
+          "slug": "_4-提交盘点结果"
+        },
+        {
+          "level": 3,
+          "title": "5. 入库盘盈资产",
+          "slug": "_5-入库盘盈资产"
         }
       ]
     },

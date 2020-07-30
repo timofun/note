@@ -21,6 +21,14 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-5292f06e",
+    path: "/pc/consumable.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5292f06e").then(next)
+    },
+  },
+  {
     name: "v-9c9ce584",
     path: "/pc/finance.html",
     component: GlobalLayout,
@@ -29,27 +37,11 @@ export const routes = [
     },
   },
   {
-    name: "v-2b3bb73a",
-    path: "/pc/inventory.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2b3bb73a").then(next)
-    },
-  },
-  {
     name: "v-bd477164",
     path: "/pc/emp_manage.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-bd477164").then(next)
-    },
-  },
-  {
-    name: "v-5292f06e",
-    path: "/pc/consumable.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5292f06e").then(next)
     },
   },
   {
@@ -74,6 +66,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-640d5cb4").then(next)
+    },
+  },
+  {
+    name: "v-2b3bb73a",
+    path: "/pc/inventory.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2b3bb73a").then(next)
     },
   },
   {

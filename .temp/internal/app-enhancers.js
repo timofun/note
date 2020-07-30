@@ -3,11 +3,13 @@ import m1 from "D:\\Project\\asset-press\\asset-press\\.temp\\app-enhancers\\dat
 import m2 from "D:\\Project\\asset-press\\asset-press\\.temp\\app-enhancers\\global-components-1.js"
 import m3 from "D:\\Project\\asset-press\\asset-press\\.temp\\app-enhancers\\1.js"
 import m4 from "D:\\Project\\asset-press\\asset-press\\.temp\\app-enhancers\\2.js"
+import m5 from "D:\\Project\\asset-press\\asset-press\\.temp\\app-enhancers\\3.js"
 
 export default [
   m0,
   m1,
   m2,
   m3,
-  m4
+  m4,
+  m5
 ]

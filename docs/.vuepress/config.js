@@ -7,12 +7,10 @@ module.exports = {
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['meta', { name: 'theme-color', content: '#5a8dff' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    [
-      'meta',
-      { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }
-    ],
-    ['link', { rel: 'apple-touch-icon', href: '/logo.png' }],
-    ['meta', { name: 'msapplication-TileImage', content: '/logo.png' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['link', { rel: 'apple-touch-icon', href: './favicon.ico' }],
+    ['link', { rel: 'mask-icon', href: './favicon.ico', color: '#3eaf7c' }],
+    ['meta', { name: 'msapplication-TileImage', content: './favicon.ico' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
   themeConfig: {
@@ -51,8 +49,18 @@ module.exports = {
     ],
     sidebarDepth: 1
   },
-  serviceWorker: true,
   host: '0.0.0.0',
   port: 1111,
-  plugins: ['@vuepress/pwa']
+  plugins: [
+    '@vuepress/back-to-top',
+    [
+      '@vuepress/pwa',
+      {
+        updatePopup: {
+          message: '新手指引有新内容更新',
+          buttonText: '刷新'
+        }
+      }
+    ]
+  ]
 }

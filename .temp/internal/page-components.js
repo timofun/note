@@ -3,12 +3,12 @@
  */
 export default {
   "v-a917738c": () => import("D:\\Project\\asset-press\\asset-press\\docs\\README.md"),
-  "v-9c9ce584": () => import("D:\\Project\\asset-press\\asset-press\\docs\\pc\\finance.md"),
-  "v-2b3bb73a": () => import("D:\\Project\\asset-press\\asset-press\\docs\\pc\\inventory.md"),
-  "v-bd477164": () => import("D:\\Project\\asset-press\\asset-press\\docs\\pc\\emp_manage.md"),
   "v-5292f06e": () => import("D:\\Project\\asset-press\\asset-press\\docs\\pc\\consumable.md"),
+  "v-9c9ce584": () => import("D:\\Project\\asset-press\\asset-press\\docs\\pc\\finance.md"),
+  "v-bd477164": () => import("D:\\Project\\asset-press\\asset-press\\docs\\pc\\emp_manage.md"),
   "v-5a484dfa": () => import("D:\\Project\\asset-press\\asset-press\\docs\\pc\\guide.md"),
   "v-567af254": () => import("D:\\Project\\asset-press\\asset-press\\docs\\pc\\order.md"),
   "v-640d5cb4": () => import("D:\\Project\\asset-press\\asset-press\\docs\\pc\\summary.md"),
+  "v-2b3bb73a": () => import("D:\\Project\\asset-press\\asset-press\\docs\\pc\\inventory.md"),
   "v-26ee1a9a": () => import("D:\\Project\\asset-press\\asset-press\\docs\\pc\\q&a.md") 
 }
