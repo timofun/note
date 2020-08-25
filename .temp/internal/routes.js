@@ -21,19 +21,19 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-5292f06e",
-    path: "/pc/consumable.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5292f06e").then(next)
-    },
-  },
-  {
     name: "v-9c9ce584",
     path: "/pc/finance.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-9c9ce584").then(next)
+    },
+  },
+  {
+    name: "v-5292f06e",
+    path: "/pc/consumable.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5292f06e").then(next)
     },
   },
   {
@@ -61,19 +61,19 @@ export const routes = [
     },
   },
   {
-    name: "v-640d5cb4",
-    path: "/pc/summary.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-640d5cb4").then(next)
-    },
-  },
-  {
     name: "v-2b3bb73a",
     path: "/pc/inventory.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-2b3bb73a").then(next)
+    },
+  },
+  {
+    name: "v-640d5cb4",
+    path: "/pc/summary.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-640d5cb4").then(next)
     },
   },
   {

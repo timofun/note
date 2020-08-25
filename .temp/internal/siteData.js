@@ -35,6 +35,86 @@ export const siteData = {
       "path": "/"
     },
     {
+      "title": "财务管理流程",
+      "frontmatter": {},
+      "regularPath": "/pc/finance.html",
+      "relativePath": "pc/finance.md",
+      "key": "v-9c9ce584",
+      "path": "/pc/finance.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "开启财务模块",
+          "slug": "开启财务模块"
+        },
+        {
+          "level": 3,
+          "title": "按资产分类设置折旧要素",
+          "slug": "按资产分类设置折旧要素"
+        },
+        {
+          "level": 3,
+          "title": "财务模块反启用",
+          "slug": "财务模块反启用"
+        },
+        {
+          "level": 2,
+          "title": "入账固定资产",
+          "slug": "入账固定资产"
+        },
+        {
+          "level": 3,
+          "title": "1. 入账当期资产",
+          "slug": "_1-入账当期资产"
+        },
+        {
+          "level": 3,
+          "title": "2. 批量入账当前资产",
+          "slug": "_2-批量入账当前资产"
+        },
+        {
+          "level": 3,
+          "title": "3. 入账历史资产",
+          "slug": "_3-入账历史资产"
+        },
+        {
+          "level": 3,
+          "title": "4. 历史资产入账初始化数据查看",
+          "slug": "_4-历史资产入账初始化数据查看"
+        },
+        {
+          "level": 2,
+          "title": "计提折旧&结账",
+          "slug": "计提折旧-结账"
+        },
+        {
+          "level": 2,
+          "title": "查看报表数据",
+          "slug": "查看报表数据"
+        },
+        {
+          "level": 2,
+          "title": "财务信息变动",
+          "slug": "财务信息变动"
+        },
+        {
+          "level": 3,
+          "title": "财务信息编辑",
+          "slug": "财务信息编辑"
+        },
+        {
+          "level": 3,
+          "title": "财务信息变更",
+          "slug": "财务信息变更"
+        },
+        {
+          "level": 3,
+          "title": "资产卡片删除",
+          "slug": "资产卡片删除"
+        }
+      ]
+    },
+    {
       "title": "耗材管理流程",
       "frontmatter": {},
       "regularPath": "/pc/consumable.html",
@@ -121,81 +201,6 @@ export const siteData = {
           "level": 3,
           "title": "库存概况月报&领用统计月报",
           "slug": "库存概况月报-领用统计月报"
-        }
-      ]
-    },
-    {
-      "title": "财务管理流程",
-      "frontmatter": {},
-      "regularPath": "/pc/finance.html",
-      "relativePath": "pc/finance.md",
-      "key": "v-9c9ce584",
-      "path": "/pc/finance.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "开启财务模块",
-          "slug": "开启财务模块"
-        },
-        {
-          "level": 3,
-          "title": "按资产分类设置折旧要素",
-          "slug": "按资产分类设置折旧要素"
-        },
-        {
-          "level": 2,
-          "title": "入账固定资产",
-          "slug": "入账固定资产"
-        },
-        {
-          "level": 3,
-          "title": "1. 入账当期资产",
-          "slug": "_1-入账当期资产"
-        },
-        {
-          "level": 3,
-          "title": "2. 批量入账当前资产",
-          "slug": "_2-批量入账当前资产"
-        },
-        {
-          "level": 3,
-          "title": "3. 入账历史资产",
-          "slug": "_3-入账历史资产"
-        },
-        {
-          "level": 3,
-          "title": "4. 历史资产入账初始化数据查看",
-          "slug": "_4-历史资产入账初始化数据查看"
-        },
-        {
-          "level": 2,
-          "title": "计提折旧&结账",
-          "slug": "计提折旧-结账"
-        },
-        {
-          "level": 2,
-          "title": "查看报表数据",
-          "slug": "查看报表数据"
-        },
-        {
-          "level": 2,
-          "title": "财务信息变动",
-          "slug": "财务信息变动"
-        },
-        {
-          "level": 3,
-          "title": "财务信息编辑",
-          "slug": "财务信息编辑"
-        },
-        {
-          "level": 3,
-          "title": "财务信息变更",
-          "slug": "财务信息变更"
-        },
-        {
-          "level": 3,
-          "title": "资产卡片删除",
-          "slug": "资产卡片删除"
         }
       ]
     },
@@ -426,31 +431,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "概述",
-      "frontmatter": {},
-      "regularPath": "/pc/summary.html",
-      "relativePath": "pc/summary.md",
-      "key": "v-640d5cb4",
-      "path": "/pc/summary.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "1. PC端",
-          "slug": "_1-pc端"
-        },
-        {
-          "level": 3,
-          "title": "2. 移动端",
-          "slug": "_2-移动端"
-        },
-        {
-          "level": 3,
-          "title": "体验账号",
-          "slug": "体验账号"
-        }
-      ]
-    },
-    {
       "frontmatter": {
         "sidebar": false
       },
@@ -558,6 +538,31 @@ export const siteData = {
           "level": 3,
           "title": "5. 入库盘盈资产",
           "slug": "_5-入库盘盈资产"
+        }
+      ]
+    },
+    {
+      "title": "概述",
+      "frontmatter": {},
+      "regularPath": "/pc/summary.html",
+      "relativePath": "pc/summary.md",
+      "key": "v-640d5cb4",
+      "path": "/pc/summary.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "1. PC端",
+          "slug": "_1-pc端"
+        },
+        {
+          "level": 3,
+          "title": "2. 移动端",
+          "slug": "_2-移动端"
+        },
+        {
+          "level": 3,
+          "title": "体验账号",
+          "slug": "体验账号"
         }
       ]
     },
