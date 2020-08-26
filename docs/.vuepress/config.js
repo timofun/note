@@ -10,67 +10,66 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
   themeConfig: {
-    logo: '/logo.png',
     sidebar: [
       {
         title: 'Js',
         collapsable: true,
-        path: '/note/js.md'
+        path: '/js.md'
       },
       {
         title: 'Css',
         collapsable: true,
-        path: '/note/css.md'
+        path: '/css.md'
       },
       {
         title: 'Vue',
         collapsable: true,
-        path: '/note/vue.md'
+        path: '/vue.md'
       },
       {
         title: 'React',
         collapsable: true,
-        path: '/note/react.md'
+        path: '/react.md'
       },
       {
         title: 'Flutter',
         collapsable: true,
-        path: '/note/flutter.md'
+        path: 'flutter.md'
       },
       {
         title: '小程序',
         collapsable: true,
-        path: '/note/mini.md'
+        path: '/mini.md'
       },
       {
         title: '工程化',
         collapsable: true,
-        path: '/note/engineered.md'
+        path: '/engineered.md'
       },
       {
         title: '性能优化',
         collapsable: true,
-        path: '/note/optimize.md'
+        path: '/optimize.md'
       },
       {
         title: 'Git',
         collapsable: true,
-        path: '/note/git.md'
+        path: '/git.md'
       },
       {
         title: 'Webstorm',
         collapsable: true,
-        path: '/note/webstorm.md'
+        path: '/webstorm.md'
       },
       {
         title: 'Mac',
         collapsable: true,
-        path: '/note/mac.md'
+        path: '/mac.md'
       },
       {
         title: 'Order',
         collapsable: true,
-        path: '/note/order.md'
+        path: '/order.md'
       }
     ],
     sidebarDepth: 1
