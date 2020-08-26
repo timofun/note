@@ -1,50 +1,76 @@
 module.exports = {
-  title: '精臣固定资产',
-  description: '让物的管理更简单',
-  base: '/handbook/',
+  title: 'Note文档',
+  description: '平时随手记录文档',
+  base: '/note/',
   head: [
-    ['link', { rel: 'icon', href: './favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['meta', { name: 'theme-color', content: '#5a8dff' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { rel: 'apple-touch-icon', href: './favicon.ico' }],
-    ['link', { rel: 'mask-icon', href: './favicon.ico', color: '#3eaf7c' }],
-    ['meta', { name: 'msapplication-TileImage', content: './favicon.ico' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
   themeConfig: {
     logo: '/logo.png',
     sidebar: [
       {
-        title: '概述',
+        title: 'Js',
         collapsable: true,
-        path: '/pc/summary.md'
+        path: '/note/js.md'
       },
       {
-        title: '资产管理流程',
+        title: 'Css',
         collapsable: true,
-        path: '/pc/guide.md'
+        path: '/note/css.md'
       },
       {
-        title: '耗材管理流程',
+        title: 'Vue',
         collapsable: true,
-        path: '/pc/consumable.md'
+        path: '/note/vue.md'
       },
       {
-        title: '财务管理流程',
+        title: 'React',
         collapsable: true,
-        path: '/pc/finance.md'
+        path: '/note/react.md'
       },
       {
-        title: '系统其它功能',
+        title: 'Flutter',
         collapsable: true,
-        path: '/pc/order.md'
+        path: '/note/flutter.md'
       },
       {
-        title: '常见问题',
+        title: '小程序',
         collapsable: true,
-        path: '/pc/q&a.md'
+        path: '/note/mini.md'
+      },
+      {
+        title: '工程化',
+        collapsable: true,
+        path: '/note/engineered.md'
+      },
+      {
+        title: '性能优化',
+        collapsable: true,
+        path: '/note/optimize.md'
+      },
+      {
+        title: 'Git',
+        collapsable: true,
+        path: '/note/git.md'
+      },
+      {
+        title: 'Webstorm',
+        collapsable: true,
+        path: '/note/webstorm.md'
+      },
+      {
+        title: 'Mac',
+        collapsable: true,
+        path: '/note/mac.md'
+      },
+      {
+        title: 'Order',
+        collapsable: true,
+        path: '/note/order.md'
       }
     ],
     sidebarDepth: 1
@@ -58,7 +84,7 @@ module.exports = {
       {
         serviceWorker: false,
         updatePopup: {
-          message: '新手指引有新内容更新',
+          message: '有新内容更新',
           buttonText: '刷新'
         }
       }
