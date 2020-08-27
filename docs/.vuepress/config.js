@@ -81,7 +81,6 @@ module.exports = {
     [
       '@vuepress/pwa',
       {
-        serviceWorker: false,
         updatePopup: {
           message: '有新内容更新',
           buttonText: '刷新'
