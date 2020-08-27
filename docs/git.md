@@ -1,4 +1,4 @@
-# Git常见问题
+# Git 相关
 
 ## push报错
 Permanently added 'github.com,13.229.188.59' (RSA) to the list of known hosts.
