@@ -18,4 +18,7 @@
 sudo killall -HUP mDNSResponder
 ```
 
+## Mac 美化终端
+[iTerm2 + Oh My Zsh 打造舒适终端体验](https://zhuanlan.zhihu.com/p/37195261)
+
 
