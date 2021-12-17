@@ -6,6 +6,10 @@
 1.defaults write com.apple.finder AppleShowAllFiles TRUE
 2.killall Finder
 ```
+或者
+```sh
+shift + cmd + .
+```
 
 恢复隐藏
 ```sh

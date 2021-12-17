@@ -44,6 +44,14 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "工程化 相关",
+      "frontmatter": {},
+      "regularPath": "/engineered.html",
+      "relativePath": "engineered.md",
+      "key": "v-4850c630",
+      "path": "/engineered.html"
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -70,64 +78,6 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-74c15a3a",
       "path": "/"
-    },
-    {
-      "title": "Git 相关",
-      "frontmatter": {},
-      "regularPath": "/git.html",
-      "relativePath": "git.md",
-      "key": "v-2af562d8",
-      "path": "/git.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "push报错",
-          "slug": "push报错"
-        },
-        {
-          "level": 2,
-          "title": "GitHook 工具 —— husky 配置",
-          "slug": "githook-工具-husky-配置"
-        }
-      ]
-    },
-    {
-      "title": "Css 相关",
-      "frontmatter": {},
-      "regularPath": "/css.html",
-      "relativePath": "css.md",
-      "key": "v-177357f8",
-      "path": "/css.html"
-    },
-    {
-      "title": "Flutter 相关",
-      "frontmatter": {},
-      "regularPath": "/flutter.html",
-      "relativePath": "flutter.md",
-      "key": "v-21b91a18",
-      "path": "/flutter.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "升级CocoaPods到最新版本",
-          "slug": "升级cocoapods到最新版本"
-        },
-        {
-          "level": 2,
-          "title": "pod install报错LibreSSL SSLconnect: SSLERROR_SYSCALL in connection to github.com:443",
-          "slug": "pod-install报错libressl-ssl-connect-ssl-error-syscall-in-connection-to-github-com-443"
-        },
-        {
-          "level": 3,
-          "title": "解决方式1",
-          "slug": "解决方式1"
-        },
-        {
-          "level": 3,
-          "title": "解决方式2",
-          "slug": "解决方式2"
-        }
-      ]
     },
     {
       "title": "Mac 相关",
@@ -210,12 +160,24 @@ export const siteData = {
       ]
     },
     {
-      "title": "工程化 相关",
+      "title": "Git 相关",
       "frontmatter": {},
-      "regularPath": "/engineered.html",
-      "relativePath": "engineered.md",
-      "key": "v-4850c630",
-      "path": "/engineered.html"
+      "regularPath": "/git.html",
+      "relativePath": "git.md",
+      "key": "v-2af562d8",
+      "path": "/git.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "push报错",
+          "slug": "push报错"
+        },
+        {
+          "level": 2,
+          "title": "GitHook 工具 —— husky 配置",
+          "slug": "githook-工具-husky-配置"
+        }
+      ]
     },
     {
       "title": "Js 相关",
@@ -226,28 +188,12 @@ export const siteData = {
       "path": "/js.html"
     },
     {
-      "title": "React 相关",
-      "frontmatter": {},
-      "regularPath": "/react.html",
-      "relativePath": "react.md",
-      "key": "v-15202a90",
-      "path": "/react.html"
-    },
-    {
       "title": "小程序 相关",
       "frontmatter": {},
       "regularPath": "/mini.html",
       "relativePath": "mini.md",
       "key": "v-2230a496",
       "path": "/mini.html"
-    },
-    {
-      "title": "优化",
-      "frontmatter": {},
-      "regularPath": "/optimize.html",
-      "relativePath": "optimize.md",
-      "key": "v-017e68ec",
-      "path": "/optimize.html"
     },
     {
       "title": "其它",
@@ -265,12 +211,58 @@ export const siteData = {
       ]
     },
     {
-      "title": "Vue 相关",
+      "title": "React 相关",
       "frontmatter": {},
-      "regularPath": "/vue.html",
-      "relativePath": "vue.md",
-      "key": "v-fa273550",
-      "path": "/vue.html"
+      "regularPath": "/react.html",
+      "relativePath": "react.md",
+      "key": "v-15202a90",
+      "path": "/react.html"
+    },
+    {
+      "title": "Css 相关",
+      "frontmatter": {},
+      "regularPath": "/css.html",
+      "relativePath": "css.md",
+      "key": "v-177357f8",
+      "path": "/css.html"
+    },
+    {
+      "title": "Flutter 相关",
+      "frontmatter": {},
+      "regularPath": "/flutter.html",
+      "relativePath": "flutter.md",
+      "key": "v-21b91a18",
+      "path": "/flutter.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "升级CocoaPods到最新版本",
+          "slug": "升级cocoapods到最新版本"
+        },
+        {
+          "level": 2,
+          "title": "pod install报错LibreSSL SSLconnect: SSLERROR_SYSCALL in connection to github.com:443",
+          "slug": "pod-install报错libressl-ssl-connect-ssl-error-syscall-in-connection-to-github-com-443"
+        },
+        {
+          "level": 3,
+          "title": "解决方式1",
+          "slug": "解决方式1"
+        },
+        {
+          "level": 3,
+          "title": "解决方式2",
+          "slug": "解决方式2"
+        }
+      ]
+    },
+    {
+      "title": "优化",
+      "frontmatter": {},
+      "regularPath": "/optimize.html",
+      "relativePath": "optimize.md",
+      "key": "v-017e68ec",
+      "path": "/optimize.html"
     },
     {
       "title": "Webstorm 相关",
@@ -291,6 +283,14 @@ export const siteData = {
           "slug": "git-忽略-idea-workspace-xml文件"
         }
       ]
+    },
+    {
+      "title": "Vue 相关",
+      "frontmatter": {},
+      "regularPath": "/vue.html",
+      "relativePath": "vue.md",
+      "key": "v-fa273550",
+      "path": "/vue.html"
     }
   ],
   "themeConfig": {

@@ -9,6 +9,9 @@ ssh-keygen -t rsa -C "xxx@xxx.com" // 重新生成rsa-key
 打开 .ssh/id_rsa.pub. 复制ssh-key  
 粘贴到github，个人setting -> SSH and GPG keys，添加个新的key
 
+## vscode push失败
+![my-logo.png](https://github.com/timofun/picture/blob/main/202112171557621.png?raw=true) 
+
 ## GitHook 工具 —— husky 配置
 husky 是一个 Git Hook 工具。本文主要实现提交前 eslint 校验和 commit 信息的规范校验。   
 **1. 安装 husky，lint-staged，@commitlint/cli，@commitlint/config-conventional 依赖**   

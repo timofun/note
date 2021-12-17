@@ -1,1 +1,1 @@
-export { default } from "/Users/timofun/Documents/project/note/node_modules/.pnpm/@vuepress+plugin-back-to-top@1.8.2/node_modules/@vuepress/plugin-back-to-top/enhanceAppFile.js"
+export { default } from "/Users/timofun/Documents/project/note/node_modules/@vuepress/plugin-back-to-top/enhanceAppFile.js"
