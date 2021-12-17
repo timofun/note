@@ -1,1 +1,1 @@
-export { default } from "D:\\Project\\asset-press\\asset-press\\node_modules\\@vuepress\\plugin-pwa\\lib\\enhanceAppFile.js"
+export { default } from "/Users/timofun/Documents/project/note/node_modules/.pnpm/@vuepress+plugin-pwa@1.8.2/node_modules/@vuepress/plugin-pwa/lib/enhanceAppFile.js"

@@ -4,16 +4,16 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "D:\\Project\\asset-press\\asset-press\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "/Users/timofun/Documents/project/note/node_modules/.pnpm/@vuepress+core@1.8.2/node_modules/@vuepress/core/lib/client/components/GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-a917738c",
+    name: "v-74c15a3a",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a917738c").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-74c15a3a").then(next)
     },
   },
   {
@@ -21,67 +21,99 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-9c9ce584",
-    path: "/pc/finance.html",
+    name: "v-177357f8",
+    path: "/css.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-9c9ce584").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-177357f8").then(next)
     },
   },
   {
-    name: "v-5292f06e",
-    path: "/pc/consumable.html",
+    name: "v-4850c630",
+    path: "/engineered.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5292f06e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-4850c630").then(next)
     },
   },
   {
-    name: "v-bd477164",
-    path: "/pc/emp_manage.html",
+    name: "v-2af562d8",
+    path: "/git.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-bd477164").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2af562d8").then(next)
     },
   },
   {
-    name: "v-5a484dfa",
-    path: "/pc/guide.html",
+    name: "v-2ace94f2",
+    path: "/js.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5a484dfa").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2ace94f2").then(next)
     },
   },
   {
-    name: "v-567af254",
-    path: "/pc/order.html",
+    name: "v-21b91a18",
+    path: "/flutter.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-567af254").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-21b91a18").then(next)
     },
   },
   {
-    name: "v-2b3bb73a",
-    path: "/pc/inventory.html",
+    name: "v-0b8af578",
+    path: "/mac.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2b3bb73a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-0b8af578").then(next)
     },
   },
   {
-    name: "v-640d5cb4",
-    path: "/pc/summary.html",
+    name: "v-2230a496",
+    path: "/mini.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-640d5cb4").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2230a496").then(next)
     },
   },
   {
-    name: "v-26ee1a9a",
-    path: "/pc/q&a.html",
+    name: "v-017e68ec",
+    path: "/optimize.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-26ee1a9a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-017e68ec").then(next)
+    },
+  },
+  {
+    name: "v-5c314450",
+    path: "/order.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5c314450").then(next)
+    },
+  },
+  {
+    name: "v-fa273550",
+    path: "/vue.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-fa273550").then(next)
+    },
+  },
+  {
+    name: "v-15202a90",
+    path: "/react.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-15202a90").then(next)
+    },
+  },
+  {
+    name: "v-2d0171cc",
+    path: "/webstorm.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2d0171cc").then(next)
     },
   },
   {
