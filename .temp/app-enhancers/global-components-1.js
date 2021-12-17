@@ -1,8 +1,8 @@
 import Vue from 'vue'
 
-Vue.component("CodeBlock", () => import("/Users/timofun/Documents/project/note/node_modules/.pnpm/@vuepress+theme-default@1.8.2/node_modules/@vuepress/theme-default/global-components/CodeBlock"))
 Vue.component("Badge", () => import("/Users/timofun/Documents/project/note/node_modules/.pnpm/@vuepress+theme-default@1.8.2/node_modules/@vuepress/theme-default/global-components/Badge"))
 Vue.component("CodeGroup", () => import("/Users/timofun/Documents/project/note/node_modules/.pnpm/@vuepress+theme-default@1.8.2/node_modules/@vuepress/theme-default/global-components/CodeGroup"))
+Vue.component("CodeBlock", () => import("/Users/timofun/Documents/project/note/node_modules/.pnpm/@vuepress+theme-default@1.8.2/node_modules/@vuepress/theme-default/global-components/CodeBlock"))
 
 
 export default {}

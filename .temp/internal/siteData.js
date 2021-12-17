@@ -72,22 +72,6 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "Css 相关",
-      "frontmatter": {},
-      "regularPath": "/css.html",
-      "relativePath": "css.md",
-      "key": "v-177357f8",
-      "path": "/css.html"
-    },
-    {
-      "title": "工程化 相关",
-      "frontmatter": {},
-      "regularPath": "/engineered.html",
-      "relativePath": "engineered.md",
-      "key": "v-4850c630",
-      "path": "/engineered.html"
-    },
-    {
       "title": "Git 相关",
       "frontmatter": {},
       "regularPath": "/git.html",
@@ -108,12 +92,12 @@ export const siteData = {
       ]
     },
     {
-      "title": "Js 相关",
+      "title": "Css 相关",
       "frontmatter": {},
-      "regularPath": "/js.html",
-      "relativePath": "js.md",
-      "key": "v-2ace94f2",
-      "path": "/js.html"
+      "regularPath": "/css.html",
+      "relativePath": "css.md",
+      "key": "v-177357f8",
+      "path": "/css.html"
     },
     {
       "title": "Flutter 相关",
@@ -226,6 +210,30 @@ export const siteData = {
       ]
     },
     {
+      "title": "工程化 相关",
+      "frontmatter": {},
+      "regularPath": "/engineered.html",
+      "relativePath": "engineered.md",
+      "key": "v-4850c630",
+      "path": "/engineered.html"
+    },
+    {
+      "title": "Js 相关",
+      "frontmatter": {},
+      "regularPath": "/js.html",
+      "relativePath": "js.md",
+      "key": "v-2ace94f2",
+      "path": "/js.html"
+    },
+    {
+      "title": "React 相关",
+      "frontmatter": {},
+      "regularPath": "/react.html",
+      "relativePath": "react.md",
+      "key": "v-15202a90",
+      "path": "/react.html"
+    },
+    {
       "title": "小程序 相关",
       "frontmatter": {},
       "regularPath": "/mini.html",
@@ -263,14 +271,6 @@ export const siteData = {
       "relativePath": "vue.md",
       "key": "v-fa273550",
       "path": "/vue.html"
-    },
-    {
-      "title": "React 相关",
-      "frontmatter": {},
-      "regularPath": "/react.html",
-      "relativePath": "react.md",
-      "key": "v-15202a90",
-      "path": "/react.html"
     },
     {
       "title": "Webstorm 相关",
