@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Flutter 相关 | Note文档</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    <link rel="manifest" href="/note/manifest.json">
+    <meta name="description" content="平时随手记录文档">
+    <meta name="theme-color" content="#5a8dff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileColor" content="#000000">
+    <link rel="preload" href="/note/assets/css/0.styles.2e8d7571.css" as="style"><link rel="preload" href="/note/assets/js/app.62a30812.js" as="script"><link rel="preload" href="/note/assets/js/2.5d60ff05.js" as="script"><link rel="preload" href="/note/assets/js/10.69540429.js" as="script"><link rel="preload" href="/note/assets/js/3.634cdf67.js" as="script"><link rel="prefetch" href="/note/assets/js/11.a8ad12dc.js"><link rel="prefetch" href="/note/assets/js/12.91659095.js"><link rel="prefetch" href="/note/assets/js/13.636a4b81.js"><link rel="prefetch" href="/note/assets/js/14.bf293f06.js"><link rel="prefetch" href="/note/assets/js/15.7ad7c87a.js"><link rel="prefetch" href="/note/assets/js/16.adfe0086.js"><link rel="prefetch" href="/note/assets/js/17.0fe0ce34.js"><link rel="prefetch" href="/note/assets/js/18.571ea446.js"><link rel="prefetch" href="/note/assets/js/19.4f936bc4.js"><link rel="prefetch" href="/note/assets/js/4.d32f6b8d.js"><link rel="prefetch" href="/note/assets/js/5.1796766d.js"><link rel="prefetch" href="/note/assets/js/6.dea30879.js"><link rel="prefetch" href="/note/assets/js/7.9e7bafe1.js"><link rel="prefetch" href="/note/assets/js/8.7dcb691f.js"><link rel="prefetch" href="/note/assets/js/9.5f493ca2.js">
+    <link rel="stylesheet" href="/note/assets/css/0.styles.2e8d7571.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/note/" class="home-link router-link-active"><!----> <span class="site-name">Note文档</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><a href="/note/js.html" class="sidebar-link">Js</a></li><li><a href="/note/css.html" class="sidebar-link">Css</a></li><li><a href="/note/vue.html" class="sidebar-link">Vue</a></li><li><a href="/note/react.html" class="sidebar-link">React</a></li><li><a href="/note/flutter.html" aria-current="page" class="active sidebar-link">Flutter</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/note/flutter.html#升级cocoapods到最新版本" class="sidebar-link">升级CocoaPods到最新版本</a></li><li class="sidebar-sub-header"><a href="/note/flutter.html#pod-install报错libressl-ssl-connect-ssl-error-syscall-in-connection-to-github-com-443" class="sidebar-link">pod install报错LibreSSL SSLconnect: SSLERROR_SYSCALL in connection to github.com:443</a></li></ul></li><li><a href="/note/mini.html" class="sidebar-link">小程序</a></li><li><a href="/note/engineered.html" class="sidebar-link">工程化</a></li><li><a href="/note/optimize.html" class="sidebar-link">性能优化</a></li><li><a href="/note/git.html" class="sidebar-link">Git</a></li><li><a href="/note/webstorm.html" class="sidebar-link">Webstorm</a></li><li><a href="/note/mac.html" class="sidebar-link">Mac</a></li><li><a href="/note/order.html" class="sidebar-link">Order</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="flutter-相关"><a href="#flutter-相关" class="header-anchor">#</a> Flutter 相关</h1> <h2 id="升级cocoapods到最新版本"><a href="#升级cocoapods到最新版本" class="header-anchor">#</a> 升级CocoaPods到最新版本</h2> <p>查看版本 pod --version</p> <div class="language-sh extra-class"><pre class="language-sh"><code>pod --version
+</code></pre></div><p>运行sudo gem install cocoapods</p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">sudo</span> gem <span class="token function">install</span> cocoapods
+</code></pre></div><p>安装过程中，报了权限错误 ERROR: While executing gem ... (Gem::FilePermissionError)<br>
+You don't have write permissions for the /usr/bin directory.。<br>
+解决办法：运行sudo gem install -n /usr/local/bin cocoapods</p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">sudo</span> gem <span class="token function">install</span> -n /usr/local/bin cocoapods
+</code></pre></div><h2 id="pod-install报错libressl-ssl-connect-ssl-error-syscall-in-connection-to-github-com-443"><a href="#pod-install报错libressl-ssl-connect-ssl-error-syscall-in-connection-to-github-com-443" class="header-anchor">#</a> pod install报错LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443</h2> <h3 id="解决方式1"><a href="#解决方式1" class="header-anchor">#</a> 解决方式1</h3> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">git</span> config --global http.postBuffer <span class="token number">4194304000</span>
+</code></pre></div><h3 id="解决方式2"><a href="#解决方式2" class="header-anchor">#</a> 解决方式2</h3> <p>确定gem版本 : sudo gem update —system<br>
+确定pod : pod update (更新项目podfile)<br>
+重新pod : pod repo update<br>
+安装: pod setup<br>
+再次install: pod install</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/note/react.html" class="prev">
+        React
+      </a></span> <span class="next"><a href="/note/mini.html">
+        小程序
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/note/assets/js/app.62a30812.js" defer></script><script src="/note/assets/js/2.5d60ff05.js" defer></script><script src="/note/assets/js/10.69540429.js" defer></script><script src="/note/assets/js/3.634cdf67.js" defer></script>
+  </body>
+</html>

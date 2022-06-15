@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Git 相关 | Note文档</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    <link rel="manifest" href="/note/manifest.json">
+    <meta name="description" content="平时随手记录文档">
+    <meta name="theme-color" content="#5a8dff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileColor" content="#000000">
+    <link rel="preload" href="/note/assets/css/0.styles.2e8d7571.css" as="style"><link rel="preload" href="/note/assets/js/app.62a30812.js" as="script"><link rel="preload" href="/note/assets/js/2.5d60ff05.js" as="script"><link rel="preload" href="/note/assets/js/5.1796766d.js" as="script"><link rel="preload" href="/note/assets/js/3.634cdf67.js" as="script"><link rel="prefetch" href="/note/assets/js/10.69540429.js"><link rel="prefetch" href="/note/assets/js/11.a8ad12dc.js"><link rel="prefetch" href="/note/assets/js/12.91659095.js"><link rel="prefetch" href="/note/assets/js/13.636a4b81.js"><link rel="prefetch" href="/note/assets/js/14.bf293f06.js"><link rel="prefetch" href="/note/assets/js/15.7ad7c87a.js"><link rel="prefetch" href="/note/assets/js/16.adfe0086.js"><link rel="prefetch" href="/note/assets/js/17.0fe0ce34.js"><link rel="prefetch" href="/note/assets/js/18.571ea446.js"><link rel="prefetch" href="/note/assets/js/19.4f936bc4.js"><link rel="prefetch" href="/note/assets/js/4.d32f6b8d.js"><link rel="prefetch" href="/note/assets/js/6.dea30879.js"><link rel="prefetch" href="/note/assets/js/7.9e7bafe1.js"><link rel="prefetch" href="/note/assets/js/8.7dcb691f.js"><link rel="prefetch" href="/note/assets/js/9.5f493ca2.js">
+    <link rel="stylesheet" href="/note/assets/css/0.styles.2e8d7571.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/note/" class="home-link router-link-active"><!----> <span class="site-name">Note文档</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><a href="/note/js.html" class="sidebar-link">Js</a></li><li><a href="/note/css.html" class="sidebar-link">Css</a></li><li><a href="/note/vue.html" class="sidebar-link">Vue</a></li><li><a href="/note/react.html" class="sidebar-link">React</a></li><li><a href="/note/flutter.html" class="sidebar-link">Flutter</a></li><li><a href="/note/mini.html" class="sidebar-link">小程序</a></li><li><a href="/note/engineered.html" class="sidebar-link">工程化</a></li><li><a href="/note/optimize.html" class="sidebar-link">性能优化</a></li><li><a href="/note/git.html" aria-current="page" class="active sidebar-link">Git</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/note/git.html#push报错" class="sidebar-link">push报错</a></li><li class="sidebar-sub-header"><a href="/note/git.html#vscode-push失败" class="sidebar-link">vscode push失败</a></li><li class="sidebar-sub-header"><a href="/note/git.html#githook-工具-husky-配置" class="sidebar-link">GitHook 工具 —— husky 配置</a></li><li class="sidebar-sub-header"><a href="/note/git.html#同一台电脑同时使用github和gitlab" class="sidebar-link">同一台电脑同时使用gitHub和gitLab</a></li></ul></li><li><a href="/note/webstorm.html" class="sidebar-link">Webstorm</a></li><li><a href="/note/mac.html" class="sidebar-link">Mac</a></li><li><a href="/note/order.html" class="sidebar-link">Order</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="git-相关"><a href="#git-相关" class="header-anchor">#</a> Git 相关</h1> <h2 id="push报错"><a href="#push报错" class="header-anchor">#</a> push报错</h2> <p>Permanently added 'github.com,13.229.188.59' (RSA) to the list of known hosts.</p> <div class="language-sh extra-class"><pre class="language-sh"><code>ssh-keygen -t rsa -C <span class="token string">&quot;xxx@xxx.com&quot;</span> // 重新生成rsa-key
+</code></pre></div><p><img src="/note/assets/img/1.d6048970.png" alt="my-logo.png"><br>
+打开 .ssh/id_rsa.pub. 复制ssh-key<br>
+粘贴到github，个人setting -&gt; SSH and GPG keys，添加个新的key</p> <h2 id="vscode-push失败"><a href="#vscode-push失败" class="header-anchor">#</a> vscode push失败</h2> <p><img src="https://github.com/timofun/picture/blob/main/202112171557621.png?raw=true" alt="my-logo.png"></p> <h2 id="githook-工具-husky-配置"><a href="#githook-工具-husky-配置" class="header-anchor">#</a> GitHook 工具 —— husky 配置</h2> <p>husky 是一个 Git Hook 工具。本文主要实现提交前 eslint 校验和 commit 信息的规范校验。<br> <strong>1. 安装 husky，lint-staged，@commitlint/cli，@commitlint/config-conventional 依赖</strong></p> <p>*lint-staged: 用于实现每次提交只检查本次提交所修改的文件。</p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">npm</span> i -D husky lint-staged @commitlint/cli @commitlint/config-conventional
+</code></pre></div><blockquote><p>注意：一定要使用 npm 安装 eslint 和 husky，因为在 windows 操作系统下, 用 yarn 安装依赖，不会触发 husky pre-commit 钩子命令。</p></blockquote> <p><strong>2. 创建 .huskyrc</strong></p> <div class="language- extra-class"><pre class="language-text"><code>{
+  &quot;hooks&quot;: {
+    &quot;pre-commit&quot;: &quot;lint-staged&quot;,
+    &quot;commit-msg&quot;: &quot;commitlint -E HUSKY_GIT_PARAMS&quot;
+  }
+}
+</code></pre></div><p><strong>3. 创建 .lintstagedrc</strong></p> <div class="language- extra-class"><pre class="language-text"><code>{
+  &quot;src/**/*.js&quot;: &quot;eslint&quot;
+}
+</code></pre></div><p>设置 fix 可以自动修复错误：</p> <div class="language- extra-class"><pre class="language-text"><code>{
+   &quot;src/**/*.js&quot;: [&quot;eslint --fix&quot;, &quot;git add&quot;]
+}
+</code></pre></div><p>或者使用下面的配置，自动格式化代码（谨慎使用）：</p> <div class="language- extra-class"><pre class="language-text"><code>{
+   &quot;src/**/*.js&quot;: [&quot;prettier --write&quot;, &quot;git add&quot;]
+}
+</code></pre></div><p><strong>4. 创建 commitlint.config.js</strong></p> <div class="language- extra-class"><pre class="language-text"><code>module.exports = {
+  extends: ['@commitlint/config-conventional'],
+  rules: {
+    'type-enum': [
+        2,
+        'always',
+        [
+            'feat', // 新功能（feature）
+            'update', // 更新小逻辑
+            'fix', // 修补bug
+            'docs', // 文档（documentation）
+            'style', // 格式（不影响代码运行的变动）
+            'refactor', // 重构（即不是新增功能，也不是修改bug的代码变动）
+            'perf', // 更改代码以提高性能
+            'test', // 增加测试
+            'build', // 构建过程或辅助工具的变动
+            'ci', // 修改项目继续集成流程
+            'chore', // 其他改动
+            'revert' // 回滚
+        ],
+    ],
+    'type-empty': [2, 'never'], // 提交不符合规范时,也可以提交,但是会有警告
+    'subject-empty': [2, 'never'], // 提交不符合规范时,也可以提交,但是会有警告
+    'subject-full-stop': [0, 'never'],
+    'subject-case': [0, 'never'],
+  }
+}
+</code></pre></div><h2 id="同一台电脑同时使用github和gitlab"><a href="#同一台电脑同时使用github和gitlab" class="header-anchor">#</a> 同一台电脑同时使用gitHub和gitLab</h2> <p>一、进入ssh文件夹（cd ~/.ssh）</p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token number">1</span>.ssh-keygen -t rsa -C <span class="token string">&quot;xxx@xxx.com&quot;</span> // 重新生成rsa-key     
+<span class="token number">2</span>.按回车，再按3次enter键，生成对应的gitlab密钥：id_rsa和id_rsa.pub   
+<span class="token number">3</span>.将gitlab公钥即id_rsa.pub（~/.ssh）中的内容配置到公司的gitlab上   
+<span class="token number">4</span>.ssh-keygen -t rsa -C <span class="token string">&quot;github邮箱地址&quot;</span> -f ~/.ssh/github_rsa   
+<span class="token number">5</span>.将github公钥即github_rsa.pub中的内容配置到自己的github上  
+</code></pre></div><p>二、进入密钥生成的位置（~/.ssh/），手动创建一个config文件（注意这个config文件要无后缀）。</p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token comment"># 自己的github账号配置</span>
+Host github.com
+    User <span class="token function">git</span>
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/github_rsa
+
+<span class="token comment"># 公司的gitlab账号配置(HostName为公司的gitlab地址)</span>
+Host gitlab.com
+    User <span class="token function">git</span>
+    HostName gitlab.xxx.com
+    User <span class="token function">git</span>
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_rsa 
+</code></pre></div><p>字段配置简单说明：</p> <div class="language-sh extra-class"><pre class="language-sh"><code>Host
+    Host可以看作是一个你要识别的模式，对识别的模式，配置对应的主机名和ssh文件
+Port
+    自定义的端口。默认为22，可不配置
+User
+    自定义的用户名，默认为git，可不配置
+HostName
+    真正连接的服务器地址
+PreferredAuthentications
+    指定优先使用哪种方式验证，支持密码和秘钥验证方式
+IdentityFile
+    指定本次连接使用的密钥文件
+</code></pre></div><p>三、验证是否设置成功</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 测试github</span>
+<span class="token function">ssh</span> -T git@github.com
+
+<span class="token comment"># 测试gitlab(@符后面的为公司gitlab地址)</span>
+<span class="token function">ssh</span> -T git@gitlab.xxx.com
+</code></pre></div><p>四、git配置<br>
+git系统级别对应的配置文件是git安装目录下的 /etc/gitconfig</p> <div class="language-shell extra-class"><pre class="language-shell"><code>用户级别配置
+
+用户级别是配置公司gitlba账号还是自己github账号，可以自由选择。因为平常使用公司的代码频率较高，所以我选择将gitlab账号配置成用户级别。gitBath下执行如下命令：
+
+<span class="token function">git</span> config --global user.name <span class="token string">'lfr'</span> <span class="token comment">#公司账号名称</span>
+<span class="token function">git</span> config --global user.email <span class="token string">'lfr@company.com'</span> <span class="token comment">#公司账号邮箱</span>
+
+仓库级别配置
+
+local（仓库级别）配置成github的账号。选择一个文件夹作为github的本地仓库，在该文件夹里鼠标右键打开Git Bash Here，执行命令：git init
+
+再执行命令：
+
+<span class="token function">git</span> config --local user.name <span class="token string">'username'</span> <span class="token comment">#github账号名称</span>
+<span class="token function">git</span> config --local user.email <span class="token string">'username@gmail.com'</span> <span class="token comment">#github账号邮箱</span>
+
+之后自己的github的代码都应该在这个仓库下进行pull、push操作。
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/note/optimize.html" class="prev">
+        性能优化
+      </a></span> <span class="next"><a href="/note/webstorm.html">
+        Webstorm
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/note/assets/js/app.62a30812.js" defer></script><script src="/note/assets/js/2.5d60ff05.js" defer></script><script src="/note/assets/js/5.1796766d.js" defer></script><script src="/note/assets/js/3.634cdf67.js" defer></script>
+  </body>
+</html>
